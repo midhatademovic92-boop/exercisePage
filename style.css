@@ -1,0 +1,66 @@
+body {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+/* global css start*/
+.container {
+ width: 80%;
+ margin: 0 auto;
+}
+
+:root {
+ --black-color: #000;
+ --white-color: #fff;
+ --button-bg: #20dfe6cf;
+ --main-bg: #023133;
+}
+/*globas css end*/
+
+/*navbar start*/
+.navbar {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: var(--black-color);
+ color: var(--white-color);
+ padding: 12px 12px;
+}
+.logo h1 {
+ text-transform: uppercase;
+ font-size: 900;
+ cursor: pointer;
+}
+.link a {
+ text-decoration: none;
+ text-transform: capitalize;
+ color: var(--white-color);
+ padding: 8px;
+ font-size: larger;
+}
+
+.btnNavbar {
+ background-color: var(--button-bg);
+ color: var(--white-color);
+ padding: 8px 16px;
+ border-radius: 10px;
+ font-size: larger;
+}
+/*navbar end*/
+/*main start*/
+.mainSection {
+ background-color: var(--main-bg);
+ margin: 0 auto;
+ color: var(--white-color);
+}
+.mainSection h1 {
+ font-size: 72px;
+ letter-spacing: 2px;
+}
+.mainSection span {
+ color: var(--button-bg);
+}
+.mainSection p {
+ font-size: 18px;
+}
+/*main end*/
