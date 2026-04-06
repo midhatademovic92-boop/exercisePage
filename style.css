@@ -134,3 +134,71 @@ img {
  font-size: 32px;
 }
 /*footer end*/
+/* media query start*/
+@media (max-width: 992px) {
+ .navbar {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 8px;
+ }
+ .btnNavbar {
+  background-color: var(--button-bg);
+  color: var(--white-color);
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: medium;
+  cursor: pointer;
+ }
+}
+.mainSection {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 10px 10px;
+ gap: 8px;
+}
+.mainSection h1 {
+ font-size: 52px;
+ letter-spacing: 1px;
+}
+.mainSection p {
+ font-size: 16px;
+}
+.mainSection img {
+ width: 450px;
+}
+.aboutUs h2 {
+ font-size: 32px;
+ margin: 4px;
+}
+.aboutUs p {
+ font-size: 16px;
+ letter-spacing: 0.5px;
+ padding: 6px 20px;
+}
+.lastOne {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.btnNavbar {
+ padding: 10px 20px;
+ margin: 6px 6px;
+ cursor: pointer;
+}
+.watch {
+ font-size: medium;
+ padding: 10px 20px;
+ margin: 6px 6px;
+}
+.icon {
+ padding: 6px 20px;
+ margin: 6px 6px;
+}
+.icon .icons {
+ color: var(--white-color);
+ font-size: 28px;
+}
+/*media query end*/
