@@ -47,6 +47,7 @@ h1 {
  padding: 8px 16px;
  border-radius: 10px;
  font-size: larger;
+ cursor: pointer;
 }
 /*navbar end*/
 /*main start*/
@@ -76,9 +77,60 @@ img {
  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.25);
 }
 /*main end*/
+/*About Us start*/
+.aboutUs {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: var(--main-bg);
+ color: var(--white-color);
+}
+.aboutUs h2 {
+ font-size: 42px;
+ margin: 8px;
+}
+.aboutUs p {
+ font-size: 18px;
+ letter-spacing: 1px;
+ padding: 8px 18px;
+}
+/*About us end*/
 /*footer start*/
 .footer {
  background-color: var(--black-color);
  color: var(--white-color);
+}
+.btnNavbar {
+ padding: 12px 24px;
+ margin: 8px 8px;
+ cursor: pointer;
+}
+.lastOne {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.watch {
+ background-color: var(--main-bg);
+ opacity: 0.7;
+ color: var(--white-color);
+ font-size: larger;
+ padding: 12px 24px;
+ margin: 8px 8px;
+ border-radius: 12px;
+ cursor: pointer;
+}
+.icon {
+ padding: 8px 24px;
+ margin: 8px 8px;
+ cursor: pointer;
+ border: 1px solid var(--white-color);
+ border-radius: 8px;
+ box-shadow: 5px 5px 0px 0px var(--button-bg);
+}
+.icon .icons {
+ color: var(--white-color);
+ font-size: 32px;
 }
 /*footer end*/
