@@ -78,6 +78,30 @@ img {
  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.25);
 }
 /*main end*/
+/*cardSection start*/
+.cardSection {
+ background-color: var(--white-color);
+ color: var(--main-bg);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 12px;
+}
+.card {
+ text-align: center;
+}
+.cardSection h2 {
+ font-size: 42px;
+ margin: 0;
+}
+.cardSection img {
+ width: 350px;
+ height: 350px;
+}
+.cardSection h4 {
+ font-size: 28px;
+}
+/*cardSection end*/
 /*About Us start*/
 .aboutUs {
  display: flex;
@@ -168,6 +192,24 @@ img {
  }
  .mainSection img {
   width: 450px;
+ }
+ .cardSection {
+  flex-direction: column;
+  gap: 6px;
+ }
+ .card {
+  text-align: center;
+ }
+ .cardSection h2 {
+  font-size: 32px;
+  margin: 0;
+ }
+ .cardSection img {
+  width: 200;
+  height: 200px;
+ }
+ .cardSection h4 {
+  font-size: 18px;
  }
  .aboutUs h2 {
   font-size: 32px;
